@@ -20,7 +20,7 @@ public class Main {
     public static ArrayList<Integer> findPrime(int max) {
         ArrayList<Integer> result = new ArrayList<Integer>();
 
-        for (int j = 2; j <= max; j++) {
+        for (int j = 2; j < max; j++) {
             if (isPrime(j)) {
                 result.add(j);
             }
